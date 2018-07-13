@@ -58,7 +58,13 @@ const Contact = props => {
       <div className="form">
         <ThemeContext.Consumer>
           {theme => (
-            <Form onSubmit={handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
+            <Form
+              name="sleep"
+              netlify
+              onSubmit={handleSubmit}
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
               <FormItem label="Name">
                 {getFieldDecorator("name", {
                   rules: [
@@ -74,7 +80,7 @@ const Contact = props => {
                     {
                       required: true,
                       message: "Please input your e-mail address!",
-                      whitespace: true,
+                      whitespace: false,
                       type: "email"
                     }
                   ]
