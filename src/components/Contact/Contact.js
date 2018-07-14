@@ -1,3 +1,5 @@
+//
+
 /* eslint no-unused-vars: 0 */
 
 import { navigateTo } from "gatsby-link";
@@ -59,8 +61,7 @@ const Contact = props => {
         <ThemeContext.Consumer>
           {theme => (
             <Form
-              name="sleep"
-              netlify
+              name="contact"
               onSubmit={handleSubmit}
               data-netlify="true"
               data-netlify-honeypot="bot-field"
@@ -72,7 +73,7 @@ const Contact = props => {
                       whitespace: true
                     }
                   ]
-                })(<Input />)}
+                })(<Input name="name" />)}
               </FormItem>
               <FormItem label="E-mail">
                 {getFieldDecorator("email", {
@@ -80,11 +81,11 @@ const Contact = props => {
                     {
                       required: true,
                       message: "Please input your e-mail address!",
-                      whitespace: false,
+                      whitespace: true,
                       type: "email"
                     }
                   ]
-                })(<Input />)}
+                })(<Input name="email" />)}
               </FormItem>
               <FormItem label="Message">
                 {getFieldDecorator("message", {
@@ -93,6 +94,7 @@ const Contact = props => {
                   ]
                 })(
                   <TextArea
+                    name="message"
                     placeholder="Autosize height with minimum and maximum number of lines"
                     autosize={{ minRows: 4, maxRows: 10 }}
                   />
