@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: "The Sleep Nomad | On the trail to better sleep", // <title>
   shortSiteTitle: "The Sleep Nomad", // <title> ending for posts and pages
   siteDescription: "A sleep blog about improving sleep apnea.",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
+  siteUrl: "https://thesleepnomad.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
