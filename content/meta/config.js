@@ -14,7 +14,7 @@ module.exports = {
   headerSubTitle: "A Sleep, Sleep Apnea & Insomia blog",
   // manifest.json
   manifestName: "The Sleep Nomad",
-  manifestShortName: "SleepNomad", // max 12 characters
+  manifestShortName: "Sleep Nomad", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
