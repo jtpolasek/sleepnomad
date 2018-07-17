@@ -2,7 +2,7 @@
 title: Privacy Policy
 ---
 
-**The Basics**: TheSleepNomad.com is delivered via netlify CDN. TheSleepNomad.com does not attempt to collect any information via netlify. Your email address is only collected if you send a message via our contact page and you opt to include it with your message. Google Analytics is currently used on the site to help improve it. Therefore it does collect information.
+**The Basics**: TheSleepNomad.com is delivered via netlify CDN. TheSleepNomad.com does not attempt to collect any information via netlify. Your email address is only collected if you send a message via our contact page and you opt to include it with your message. Google Analytics is currently used on the site to help improve it. Therefore it does collect information. Below is the legalese...ugh!
 
 <h1>Privacy Policy</h1>
 
