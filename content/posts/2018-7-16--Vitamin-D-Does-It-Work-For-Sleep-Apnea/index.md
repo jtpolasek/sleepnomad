@@ -7,7 +7,7 @@ author: The Sleep Nomad
 
 ![unsplash.com](./kazuend-30877-unsplash.jpg)
 
-### The inspiration for this blog. Vitamin D and Sleep Anpea.
+### The inspiration for this blog. Vitamin D and Sleep Apnea.
 
 If you read the [about](/about/) page on this blog, you have seen this exchange between me and my sleep doctor. I asked him when I was first diagnosed with sleep apnea if he had anyone who had been cured of sleep apnea. He promptly said **"No, we would have to cut out your tongue".** In the back of my mind I was dismayed yet somehow felt challenged to prove him wrong one day. Well eight years in, he is still right but I have not given up. I constantly search for things that will improve or potentially eliminate sleep apnea. On this quest, I recently ran across the site and podcasts of [Dr Gominak](https://drgominak.com/). She is a neurologist who says she has experienced improvement in both sleep and sleep apnea by increasing the vitamin D level of her patients along with B vitamins.
 
