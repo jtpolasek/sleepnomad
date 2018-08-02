@@ -41,7 +41,7 @@ module.exports = class HTML extends React.Component {
           <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png" />
           <meta
             name="google-site-verification"
-            content="jZW0NvUOtq0k3KYhodjF1pnGxzxlWQ8PumpXd4XaAIY"
+            content="M6RPIA5PPZxxGZQtalshT1HEJRGwC_HY0gIjEOVPdxI"
           />
         </head>
         <body {...this.props.bodyAttributes}>

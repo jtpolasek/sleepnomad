@@ -19,7 +19,7 @@ It is hard to grasp how vitamin D might help with sleep and even more so with sl
 
 ### The Quest Begins
 
-So there you have the foundation of this blog. Vitamin D is not the only thing I have tried. In fact there is a long list of things I have tried and will write about. Everything from playing a **didgeridoo to neurofeedback.** Some things have worked well and others not so much. But they may work for you! Along the way, I have tried various sleep products and a few tricks to helping you sleep better. I would love to hear your best tips or products that you have tried. Please send me a message until I get a comment system going. In my next post, I will write about starting vitamin d and talking to my doctor about it. You could say it was a bit "iffy" ha!
+So there you have the foundation of this blog. Vitamin D is not the only thing I have tried. In fact there is a long list of things I have tried and will write about. Everything from playing a **didgeridoo to neurofeedback.** Some things have worked well and others not so much. But they may work for you! Along the way, I have tried various sleep products and have found a few tricks to sleeping better. I would love to hear your best tips or products that you have tried. Please send me a message until I get a comment system going. In my next post, I will write about starting vitamin d and talking to my doctor about it. You could say it was a bit "iffy" ha!
 
 [YouTube - Dr. Gominak - High Intensity Health](https://www.youtube.com/watch?v=74F22bjBmqE)
 
