@@ -15,11 +15,18 @@ If you read the [about](/about/) page on this blog, you have seen this exchange 
 
 After watching the youtube posts and podcast listed below, it sounded like this could really be something that could help. I searched all over for someone who had tried her vitamin d regimen and written about their experience but I couldn't find one. If you have tried it and have website I can link to, please send me a message via my [contact page](/contact/). I decided I was going to give the vitamin d strategy a shot. I couldn't find any real downside to trying it so long as you kept your vitamin D level below 80. I will be writing more about my experience with it in upcoming posts. I am currently 4 months into the regimen. A few of the upcoming posts will update my progress up to this point.
 
-It is hard to grasp how vitamin D might help with sleep and even more so with sleep apnea. I think the best way to explain it is to watch her videos. She goes pretty deep into her theory and medical reasons for vitamin D being such an integral part of sleeping well and potential fixing sleep apnea. I have always wondered how we could have so many people with sleep apnea when they only invented the CPAP machine in the early 80s?! What happened to everyone that had it before then? What about people in places where you can't get a cpap machine or sleep study due to cost?? I can't go a night without my cpap machine and yet it has only been around for the last 30+ years.
+It is hard to grasp how vitamin D might help with sleep and even more so with sleep apnea. Here is a study that supports the idea. [See this study](https://www.ncbi.nlm.nih.gov/pubmed/28475473).
+
+**_CONCLUSION:
+This study shows that the use of vitamin D supplement improves sleep quality, reduces sleep latency, raises sleep duration and improves subjective sleep quality in people of 20-50 year-old with sleep disorder._**
+
+I think the best way to explain it is to watch her videos. She goes pretty deep into her theory and medical reasons for vitamin D being such an integral part of sleeping well and potential fixing sleep apnea. I have always wondered how we could have so many people with sleep apnea when they only invented the CPAP machine in the early 80s?! What happened to everyone that had it before then? What about people in places where you can't get a cpap machine or sleep study due to cost?? I can't go a night without my cpap machine and yet it has only been around for the last 30+ years.
 
 ### The Quest Begins
 
-So there you have the foundation of this blog. Vitamin D is not the only thing I have tried. In fact there is a long list of things I have tried and will write about. Everything from playing a **didgeridoo to neurofeedback.** Some things have worked well and others not so much. But they may work for you! Along the way, I have tried various sleep products and have found a few tricks to sleeping better. I would love to hear your best tips or products that you have tried. Please send me a message until I get a comment system going. In my next post, I will write about starting vitamin d and talking to my doctor about it. You could say it was a bit "iffy" ha!
+So there you have the foundation of this blog. Vitamin D is not the only thing I have tried. In fact there is a long list of things I have tried and will write about. Everything from playing a **didgeridoo to neurofeedback.** Some things have worked well and others not so much. But they may work for you! Along the way, I have tried various sleep products and have found a few tricks to sleeping better. I would love to hear your best tips or products that you have tried. Please send me a message until I get a comment system going. In my next post, I will write about starting vitamin D and the first month.
+
+[Dr. Gominak's website](https://drgominak.com/)
 
 [YouTube - Dr. Gominak - High Intensity Health](https://www.youtube.com/watch?v=74F22bjBmqE)
 
