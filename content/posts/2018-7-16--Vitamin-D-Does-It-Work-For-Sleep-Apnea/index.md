@@ -20,7 +20,7 @@ It is hard to grasp how vitamin D might help with sleep and even more so with sl
 **_CONCLUSION:
 This study shows that the use of vitamin D supplement improves sleep quality, reduces sleep latency, raises sleep duration and improves subjective sleep quality in people of 20-50 year-old with sleep disorder._**
 
-I think the best way to explain it is to watch her videos. She goes pretty deep into her theory and medical reasons for vitamin D being such an integral part of sleeping well and potential fixing sleep apnea. I have always wondered how we could have so many people with sleep apnea when they only invented the CPAP machine in the early 80s?! What happened to everyone that had it before then? What about people in places where you can't get a cpap machine or sleep study due to cost?? I can't go a night without my cpap machine and yet it has only been around for the last 30+ years.
+I think the best way to explain it is to watch her videos. She goes pretty deep into her theory and medical reasons for vitamin D being such an integral part of sleeping well and potentially improving or fixing sleep apnea. I have always wondered how we could have so many people with sleep apnea when they only invented the CPAP machine in the early 80s?! What happened to everyone that had it before then? What about people in places where you can't get a cpap machine or sleep study due to cost?? I can't go a night without my cpap machine and yet it has only been around for the last 30+ years.
 
 ### The Quest Begins
 
