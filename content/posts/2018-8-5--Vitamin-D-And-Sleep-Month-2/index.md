@@ -18,7 +18,7 @@ I know many people are probably interested in trying vitamin D but testing is an
 
 Since my level was already in the 60 to 80 range, I started to get cautious about how much to take going forward. I am an experimenter by nature but I really didn't want to go over 80. Additionally, spring and summer months were coming and I knew I would be out in the sun a lot. What to do? I decide I am going to cut back and shoot for 1k to 2k of vitamin D a day. On days that I get a lot of sun, I will skip vitamin D altogether.
 
-I forgot to mention one thing that happened during the first month. Actually it was two weeks after starting. I woke up with I think is what Dr. Gominak calls pain. I was achy all over my body. It felt like I had worked out every muscle in my entire body. It wasn't too bad but it was noticeable. Nothing that would have stopped me from every day activities.
+I forgot to mention one thing that happened during the first month. Actually it was two weeks after starting. I woke up with what I think Dr. Gominak calls pain. I was achy all over my body. It felt like I had worked out every muscle in my entire body. It wasn't too bad but it was noticeable. Nothing that would have stopped me from every day activities.
 
 ###Vitamin B-50 Complex
 
