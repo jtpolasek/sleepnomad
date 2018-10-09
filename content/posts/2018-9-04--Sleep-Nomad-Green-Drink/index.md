@@ -1,6 +1,6 @@
 ---
 title: The Sleep Nomad Green Drink
-category: "Vitamin D"
+category: "Nutrition"
 cover: alexandr-podvalny-221880-unsplash.jpg
 author: The Sleep Nomad
 ---

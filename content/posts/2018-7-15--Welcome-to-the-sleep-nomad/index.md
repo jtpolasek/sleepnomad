@@ -1,6 +1,6 @@
 ---
 title: Welcome to the sleep nomad!
-category: "general"
+category: "General"
 cover: maxim-smith-108738-unsplash.jpg
 author: The Sleep Nomad
 ---
