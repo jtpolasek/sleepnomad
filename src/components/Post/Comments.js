@@ -1,24 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
-import FacebookProvider, { Comments as FBComments } from "react-facebook";
-
+import Disqus from "disqus-react";
 import config from "../../../content/meta/config";
 
 const Comments = props => {
-  const { facebook, slug, theme } = props;
+  const disqusConfig = {
+    title: props.title
+  };
 
   return (
     <React.Fragment>
       <div id="post-comments" className="comments">
-        <FacebookProvider appId={facebook.appId}>
-          <FBComments href={`${config.siteUrl}${slug}`} width="100%" colorscheme="light" />
-        </FacebookProvider>
+        <Disqus.DiscussionEmbed shortname="thesleepnomad" config={disqusConfig} />
       </div>
 
       {/* --- STYLES --- */}
       <style jsx>{`
         .comments {
-          margin: 0 -8px ${theme.space.default};
+          margin: 0 -8px ${props.theme.space.default};
         }
       `}</style>
     </React.Fragment>
@@ -27,7 +26,6 @@ const Comments = props => {
 
 Comments.propTypes = {
   slug: PropTypes.string.isRequired,
-  facebook: PropTypes.object.isRequired,
   theme: PropTypes.object.isRequired
 };
 
