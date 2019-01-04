@@ -24,7 +24,6 @@ const ContactPage = props => {
             <header>
               <Headline title="Contact" theme={theme} />
             </header>
-            <Contact theme={theme} />
           </Article>
         )}
       </ThemeContext.Consumer>
@@ -32,10 +31,6 @@ const ContactPage = props => {
       <Seo />
     </React.Fragment>
   );
-};
-
-ContactPage.propTypes = {
-  data: PropTypes.object.isRequired
 };
 
 export default ContactPage;
