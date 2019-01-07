@@ -3,16 +3,16 @@ module.exports = {
   shortSiteTitle: "The Sleep Nomad", // <title> ending for posts and pages
   siteDescription: "A sleep blog about improving sleep apnea.",
   siteUrl: "https://thesleepnomad.com",
-  pathPrefix: "",
+
   siteImage: "preview.jpg",
   siteLanguage: "en",
-  // author
+  /*author*/
   authorName: "The Sleep Nomad",
   authorTwitterAccount: "sleepnomad",
-  // info
+  /*info*/
   headerTitle: "The Sleep Nomad",
   headerSubTitle: "A Sleep, Sleep Apnea & Insomia blog",
-  // manifest.json
+  /*manifest*/
   manifestName: "The Sleep Nomad",
   manifestShortName: "Sleep Nomad", // max 12 characters
   manifestStartUrl: "/index.html",

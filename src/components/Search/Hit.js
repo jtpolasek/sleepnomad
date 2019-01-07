@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 
 const Hit = props => {
   const { hit } = props;
 
   return (
     <React.Fragment>
-      <Link to={hit.fields.slug}>{hit.frontmatter.title}</Link>
+      <Link to={hit.slug}>{hit.title}</Link>
 
       {/* --- STYLES --- */}
       <style jsx global>{`
@@ -19,7 +19,6 @@ const Hit = props => {
           width: 100%;
           color: #666;
         }
-
         .ais-Hits-item:before {
           content: "•";
           position: absolute;

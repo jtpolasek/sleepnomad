@@ -7,13 +7,13 @@ import Headline from "../Article/Headline";
 import Bodytext from "../Article/Bodytext";
 import Meta from "./Meta";
 import Author from "./Author";
-import Comments from "./Comments";
+// import Comments from "./Comments";
 import NextPrev from "./NextPrev";
 
 const Share = asyncComponent(() =>
   import("./Share")
     .then(module => {
-      return module;
+      return module.default;
     })
     .catch(error => {})
 );
@@ -43,7 +43,7 @@ const Post = props => {
         <Share post={post} theme={theme} />
         <Author note={authornote} theme={theme} />
         <NextPrev next={nextPost} prev={prevPost} theme={theme} />
-        <Comments slug={slug} title={title} theme={theme} post={post} />
+        
       </footer>
     </React.Fragment>
   );
@@ -58,3 +58,5 @@ Post.propTypes = {
 };
 
 export default Post;
+
+///* <Comments slug={slug} title={title} theme={theme} post={post} /> */

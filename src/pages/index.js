@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-
+import { graphql } from "gatsby";
 import { ThemeContext } from "../layouts";
 import Blog from "../components/Blog";
 import Hero from "../components/Hero";
@@ -25,6 +25,9 @@ class IndexPage extends React.Component {
         },
         bgMobile: {
           resize: { src: mobile }
+        },
+        site: {
+          siteMetadata: { facebook }
         }
       }
     } = this.props;
@@ -49,7 +52,7 @@ class IndexPage extends React.Component {
           {theme => <Blog posts={posts} theme={theme} />}
         </ThemeContext.Consumer>
 
-        <Seo />
+        <Seo/>
 
         <style jsx>{`
           hr {
@@ -69,7 +72,7 @@ IndexPage.propTypes = {
 export default IndexPage;
 
 //eslint-disable-next-line no-undef
-export const guery = graphql`
+export const query = graphql`
   query IndexQuery {
     posts: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "//posts/[0-9]+.*--/" } }
@@ -89,8 +92,8 @@ export const guery = graphql`
             cover {
               children {
                 ... on ImageSharp {
-                  sizes(maxWidth: 800, maxHeight: 360) {
-                    ...GatsbyImageSharpSizes_withWebp
+                  fluid(maxWidth: 800, maxHeight: 360) {
+                    ...GatsbyImageSharpFluid_withWebp
                   }
                 }
               }
@@ -99,22 +102,27 @@ export const guery = graphql`
         }
       }
     }
-    bgDesktop: imageSharp(id: { regex: "/hero-background/" }) {
+    site {
+      siteMetadata {
+        facebook {
+          appId
+        }
+      }
+    }
+    bgDesktop: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
       resize(width: 1200, quality: 90, cropFocus: CENTER) {
         src
       }
     }
-    bgTablet: imageSharp(id: { regex: "/hero-background/" }) {
+    bgTablet: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
       resize(width: 800, height: 1100, quality: 90, cropFocus: CENTER) {
         src
       }
     }
-    bgMobile: imageSharp(id: { regex: "/hero-background/" }) {
+    bgMobile: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
       resize(width: 450, height: 850, quality: 90, cropFocus: CENTER) {
         src
       }
     }
   }
 `;
-
-//hero-background

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-
+import { graphql } from "gatsby";
 require("prismjs/themes/prism-okaidia.css");
 
 import Seo from "../components/Seo";
@@ -12,9 +12,12 @@ const PostTemplate = props => {
   const {
     data: {
       post,
-      authornote: { html: authorNote }
+      authornote: { html: authorNote },
+      site: {
+        siteMetadata: { facebook }
+      }
     },
-    pathContext: { next, prev }
+    pageContext: { next, prev }
   } = props;
 
   return (
@@ -22,19 +25,26 @@ const PostTemplate = props => {
       <ThemeContext.Consumer>
         {theme => (
           <Article theme={theme}>
-            <Post post={post} next={next} prev={prev} authornote={authorNote} theme={theme} />
+            <Post
+              post={post}
+              next={next}
+              prev={prev}
+              authornote={authorNote}
+              facebook={facebook}
+              theme={theme}
+            />
           </Article>
         )}
       </ThemeContext.Consumer>
 
-      <Seo data={post} />
+      <Seo data={post} facebook={facebook} />
     </React.Fragment>
   );
 };
 
 PostTemplate.propTypes = {
   data: PropTypes.object.isRequired,
-  pathContext: PropTypes.object.isRequired
+  pageContext: PropTypes.object.isRequired
 };
 
 export default PostTemplate;
@@ -62,9 +72,16 @@ export const postQuery = graphql`
         }
       }
     }
-    authornote: markdownRemark(id: { regex: "/author/" }) {
+    authornote: markdownRemark(fileAbsolutePath: { regex: "/author/" }) {
       id
       html
+    }
+    site {
+      siteMetadata {
+        facebook {
+          appId
+        }
+      }
     }
   }
 `;

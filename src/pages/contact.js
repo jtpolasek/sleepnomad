@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 
+import { graphql } from "gatsby";
 import { ThemeContext } from "../layouts";
 import Article from "../components/Article";
 import Contact from "../components/Contact";
@@ -24,7 +25,6 @@ const ContactPage = props => {
             <header>
               <Headline title="Contact" theme={theme} />
             </header>
-            <Contact theme={theme} />
           </Article>
         )}
       </ThemeContext.Consumer>
