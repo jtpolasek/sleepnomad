@@ -34,10 +34,6 @@ const ContactPage = props => {
   );
 };
 
-ContactPage.propTypes = {
-  data: PropTypes.object.isRequired
-};
-
 export default ContactPage;
 
 // //eslint-disable-next-line no-undef
