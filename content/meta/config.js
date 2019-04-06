@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: "The Sleep Nomad | On the trail to better sleep", // <title>
   shortSiteTitle: "The Sleep Nomad", // <title> ending for posts and pages
-  siteDescription: "A sleep blog about improving sleep apnea.",
+  siteDescription: "A sleep blog about getting your best sleep.",
   siteUrl: "https://thesleepnomad.com",
 
   siteImage: "preview.jpg",
