@@ -67,7 +67,7 @@ const Contact = props => {
         <ThemeContext.Consumer>
           {theme => (
             <Form
-              name="contact"
+              name="contact2"
               onSubmit={handleSubmit}
               data-netlify="true"
               data-netlify-honeypot="bot-field"

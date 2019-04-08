@@ -14,7 +14,8 @@ What happened to the sleep nomad? Well let's just say I have been on the trail a
 
 
 
-Spammers have gotten the best of me with my contact form. I was getting nothing but spam. Therefore the contact form has been temporarily removed. That being said I am currently researching how to combat them. I hope to have it back up soon. **UPDATE: 4/8/2019:** I have added the form back with additional spam filters.
+Spammers have gotten the best of me with my contact form. I was getting nothing but spam. Therefore the contact form has been temporarily removed. That being said I am currently researching how to combat them. I hope to have it back up soon.
+
 
 I have also decided to expand the scope of this blog to be wider than just vitamin d and its effects. It was the catalyst that got me going and trying to beat sleep apnea. Improving sleep apnea has many variables and nutrition is just one of them. I have been doing many things in tandem to improve sleep apnea and I want to make sure I share those. Why? I think to improve sleep apnea, we need to look at the whole big sleep picture. Our brain, physical structure, breathing, mental mindset, nutrition, exercise to name a few. That is what I have been doing while I was "out on the trail".
 

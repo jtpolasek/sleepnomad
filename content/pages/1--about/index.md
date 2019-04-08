@@ -17,3 +17,8 @@ Breakdown of events:
 - RERA = 1
 
 Diagnosed with severe sleep apnea in 2010 with an AHI of 33, I have been trying to prove my sleep doctor wrong while keeping my tongue! Currently, I still have sleep apnea and my tongue! This site is a collection of the many things I have tried since 2010 to improve my sleep apnea and sleep in general. I currently use a cpap machine along with a mouth piece. Hopefully by sharing, we can collectively improve all of our sleep conditions.
+
+Todd 
+<br>
+The Sleep Nomad
+![The sleep nomad](./me1.jpg)
