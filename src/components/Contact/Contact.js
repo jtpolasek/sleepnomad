@@ -18,7 +18,7 @@ import { ThemeContext } from "../../layouts";
 
 const Contact = props => {
   const { getFieldDecorator } = props.form;
-
+    
   function encode(data) {
     return Object.keys(data)
       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -54,8 +54,14 @@ const Contact = props => {
   function handleNetworkError(e) {
     console.log("submit Error");
   }
+ const  divStyle = {
+    visibility: 'hidden'
+  }
+
 
   return (
+   
+
     <React.Fragment>
       <div className="form">
         <ThemeContext.Consumer>
@@ -65,6 +71,7 @@ const Contact = props => {
               onSubmit={handleSubmit}
               data-netlify="true"
               data-netlify-honeypot="bot-field"
+              data-netlify-recaptcha="true"
             >
               <FormItem label="Name">
                 {getFieldDecorator("name", {
@@ -87,7 +94,7 @@ const Contact = props => {
                   ]
                 })(<Input name="email" />)}
               </FormItem>
-              <FormItem label="Message">
+              <FormItem label="Any message containing a link will fail">
                 {getFieldDecorator("message", {
                   rules: [
                     { required: true, message: "Please input your message!", whitespace: true }
@@ -99,6 +106,14 @@ const Contact = props => {
                     autosize={{ minRows: 4, maxRows: 10 }}
                   />
                 )}
+              </FormItem>
+              <FormItem style={divStyle}>
+                <p class="hidden">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                </p>
+              </FormItem>
+              <FormItem>
+                <div data-netlify-recaptcha="true"></div>
               </FormItem>
               <FormItem>
                 <Button type="primary" htmlType="submit">
