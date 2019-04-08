@@ -35,9 +35,6 @@ const ContactPage = props => {
   );
 };
 
-ContactPage.propTypes = {
-  data: PropTypes.object.isRequired
-};
 
 
 export default ContactPage;
