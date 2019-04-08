@@ -25,7 +25,7 @@ const ContactPage = props => {
             <header>
               <Headline title="Contact" theme={theme} />
             </header>
-            <Contact theme={theme} />
+            
           </Article>
         )}
       </ThemeContext.Consumer>
