@@ -1,5 +1,3 @@
-//
-
 /* eslint no-unused-vars: 0 */
 
 import { navigate } from "gatsby";
@@ -60,11 +58,11 @@ const Contact = props => {
 
   return (
     <React.Fragment>
-      <div className="form">
-        <ThemeContext.Consumer>
-          {theme => (
+      <ThemeContext.Consumer>
+        {theme => (
+          <div className="form">
             <Form
-              name="contact2"
+              name="contact"
               onSubmit={handleSubmit}
               data-netlify="true"
               data-netlify-honeypot="bot-field"
@@ -96,11 +94,7 @@ const Contact = props => {
                     { required: true, message: "Please input your message!", whitespace: true }
                   ]
                 })(
-                  <TextArea
-                    name="message"
-                    placeholder="Please input your message!"
-                    autosize={{ minRows: 4, maxRows: 10 }}
-                  />
+                  <TextArea name="message" placeholder="" autosize={{ minRows: 4, maxRows: 10 }} />
                 )}
               </FormItem>
               <FormItem style={divStyle}>
@@ -111,61 +105,58 @@ const Contact = props => {
                 </p>
               </FormItem>
               <FormItem>
-                <div data-netlify-recaptcha="true" />
-              </FormItem>
-              <FormItem>
                 <Button type="primary" htmlType="submit">
                   Submit
                 </Button>
               </FormItem>
-              {/* --- STYLES --- */}
-              <style jsx>{`
-                .form {
-                  background: transparent;
-                }
-                .form :global(.ant-row.ant-form-item) {
-                  margin: 0 0 1em;
-                }
-                .form :global(.ant-row.ant-form-item:last-child) {
-                  margin-top: 1em;
-                }
-                .form :global(.ant-form-item-control) {
-                  line-height: 1em;
-                }
-                .form :global(.ant-form-item-label) {
-                  line-height: 1em;
-                  margin-bottom: 0.5em;
-                }
-                .form :global(.ant-form-item) {
-                  margin: 0;
-                }
-                .form :global(.ant-input) {
-                  appearance: none;
-                  height: auto;
-                  font-size: 1.2em;
-                  padding: 0.5em 0.6em;
-                }
-                .form :global(.ant-btn-primary) {
-                  height: auto;
-                  font-size: 1.2em;
-                  padding: 0.5em 3em;
-                  background: ${theme.color.brand.primary};
-                  border: 1px solid ${theme.color.brand.primary};
-                }
-                .form :global(.ant-form-explain) {
-                  margin-top: 0.2em;
-                }
-
-                @from-width desktop {
-                  .form :global(input) {
-                    max-width: 50%;
-                  }
-                }
-              `}</style>
             </Form>
-          )}
-        </ThemeContext.Consumer>
-      </div>
+
+            {/* --- STYLES --- */}
+            <style jsx>{`
+              .form {
+                background: transparent;
+              }
+              .form :global(.ant-row.ant-form-item) {
+                margin: 0 0 1em;
+              }
+              .form :global(.ant-row.ant-form-item:last-child) {
+                margin-top: 1em;
+              }
+              .form :global(.ant-form-item-control) {
+                line-height: 1em;
+              }
+              .form :global(.ant-form-item-label) {
+                line-height: 1.2em;
+                margin-bottom: 0.8em;
+              }
+              .form :global(.ant-form-item) {
+                margin: 0;
+              }
+              .form :global(.ant-input) {
+                appearance: none;
+                height: auto;
+                font-size: 1.2em;
+                padding: 0.5em 0.6em;
+              }
+              .form :global(.ant-btn-primary) {
+                height: auto;
+                font-size: 1.2em;
+                padding: 0.5em 3em;
+                background: ${theme.color.brand.primary};
+                border: 1px solid ${theme.color.brand.primary};
+              }
+              .form :global(.ant-form-explain) {
+                margin-top: 0.2em;
+              }
+              @from-width desktop {
+                .form :global(input) {
+                  max-width: 50%;
+                }
+              }
+            `}</style>
+          </div>
+        )}
+      </ThemeContext.Consumer>
     </React.Fragment>
   );
 };
