@@ -18,7 +18,7 @@ import { ThemeContext } from "../../layouts";
 
 const Contact = props => {
   const { getFieldDecorator } = props.form;
-    
+
   function encode(data) {
     return Object.keys(data)
       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -54,14 +54,11 @@ const Contact = props => {
   function handleNetworkError(e) {
     console.log("submit Error");
   }
- const  divStyle = {
-    visibility: 'hidden'
-  }
-
+  const divStyle = {
+    visibility: "hidden"
+  };
 
   return (
-   
-
     <React.Fragment>
       <div className="form">
         <ThemeContext.Consumer>
@@ -71,7 +68,6 @@ const Contact = props => {
               onSubmit={handleSubmit}
               data-netlify="true"
               data-netlify-honeypot="bot-field"
-              data-netlify-recaptcha="true"
             >
               <FormItem label="Name">
                 {getFieldDecorator("name", {
@@ -102,18 +98,20 @@ const Contact = props => {
                 })(
                   <TextArea
                     name="message"
-                    placeholder="Autosize height with minimum and maximum number of lines"
+                    placeholder="Please input your message!"
                     autosize={{ minRows: 4, maxRows: 10 }}
                   />
                 )}
               </FormItem>
               <FormItem style={divStyle}>
                 <p class="hidden">
-                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                  <label>
+                    Don’t fill this out if you're human: <input name="bot-field" />
+                  </label>
                 </p>
               </FormItem>
               <FormItem>
-                <div data-netlify-recaptcha="true"></div>
+                <div data-netlify-recaptcha="true" />
               </FormItem>
               <FormItem>
                 <Button type="primary" htmlType="submit">
