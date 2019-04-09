@@ -25,7 +25,7 @@ const ContactPage = props => {
             <header>
               <Headline title="Contact" theme={theme} />
             </header>
-            
+            <Contact theme={theme} />
           </Article>
         )}
       </ThemeContext.Consumer>
@@ -35,7 +35,9 @@ const ContactPage = props => {
   );
 };
 
-
+ContactPage.propTypes = {
+  data: PropTypes.object.isRequired
+};
 
 export default ContactPage;
 
