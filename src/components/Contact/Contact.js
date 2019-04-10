@@ -6,13 +6,18 @@ import Form from "antd/lib/form";
 import Input from "antd/lib/input";
 import PropTypes from "prop-types";
 import React from "react";
+import Recaptcha from "react-google-recaptcha";
 
-const FormItem = Form.Item;
-const { TextArea } = Input;
 import "antd/lib/form/style/index.css";
 import "antd/lib/input/style/index.css";
 import "antd/lib/button/style/index.css";
 import { ThemeContext } from "../../layouts";
+
+const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
+
+const FormItem = Form.Item;
+const { TextArea } = Input;
+let response = null;
 
 const Contact = props => {
   const { getFieldDecorator } = props.form;
@@ -37,7 +42,7 @@ const Contact = props => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...values })
+      body: encode({ "form-name": "contact", ...values, response })
     })
       .then(() => {
         console.log("Form submission success");
@@ -48,10 +53,14 @@ const Contact = props => {
         this.handleNetworkError();
       });
   }
-
   function handleNetworkError(e) {
     console.log("submit Error");
   }
+
+  function handleRecaptcha(value) {
+    response = { "g-recaptcha-response": value };
+  }
+
   const divStyle = {
     visibility: "hidden"
   };
@@ -66,6 +75,7 @@ const Contact = props => {
               onSubmit={handleSubmit}
               data-netlify="true"
               data-netlify-honeypot="bot-field"
+              data-netlify-recaptcha="true"
             >
               <FormItem label="Name">
                 {getFieldDecorator("name", {
@@ -98,13 +108,15 @@ const Contact = props => {
                 )}
               </FormItem>
               <FormItem style={divStyle}>
-                <p class="hidden">
+                <p className="hidden">
                   <label>
                     Don’t fill this out if you're human: <input name="bot-field" />
                   </label>
                 </p>
               </FormItem>
+
               <FormItem>
+                <Recaptcha sitekey={RECAPTCHA_KEY} onChange={handleRecaptcha} />
                 <Button type="primary" htmlType="submit">
                   Submit
                 </Button>
@@ -140,6 +152,7 @@ const Contact = props => {
               }
               .form :global(.ant-btn-primary) {
                 height: auto;
+                margin-top: 1em;
                 font-size: 1.2em;
                 padding: 0.5em 3em;
                 background: ${theme.color.brand.primary};
@@ -160,7 +173,6 @@ const Contact = props => {
     </React.Fragment>
   );
 };
-
 Contact.propTypes = {
   form: PropTypes.object
 };
