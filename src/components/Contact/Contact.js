@@ -32,7 +32,6 @@ const Contact = props => {
     e.preventDefault();
     props.form.validateFields((err, values) => {
       values["g-recaptcha-response"] = response;
-      console.log("Received values of form: ", values);
 
       if (!err) {
         console.log("Received values of form: ", values);
