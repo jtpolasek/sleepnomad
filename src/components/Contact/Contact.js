@@ -46,7 +46,7 @@ const Contact = props => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...values, ...response })
+      body: encode({ "form-name": "contact", ...values })
     })
       .then(() => {
         console.log("Form submission success");
@@ -120,7 +120,7 @@ const Contact = props => {
               </FormItem>
 
               <FormItem>
-                <Recaptcha sitekey={RECAPTCHA_KEY} onChange={handleRecaptcha} />
+                {/* <Recaptcha sitekey={RECAPTCHA_KEY} onChange={handleRecaptcha} /> */}
                 <Button type="primary" htmlType="submit">
                   Submit
                 </Button>
