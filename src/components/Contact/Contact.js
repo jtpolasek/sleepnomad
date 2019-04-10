@@ -120,7 +120,7 @@ const Contact = props => {
               </FormItem>
 
               <FormItem>
-                {/* <Recaptcha sitekey={RECAPTCHA_KEY} onChange={handleRecaptcha} /> */}
+                <Recaptcha sitekey={RECAPTCHA_KEY} onChange={handleRecaptcha} />
                 <Button type="primary" htmlType="submit">
                   Submit
                 </Button>
