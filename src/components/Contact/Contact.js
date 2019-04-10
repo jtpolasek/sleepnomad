@@ -31,8 +31,12 @@ const Contact = props => {
   function handleSubmit(e) {
     e.preventDefault();
     props.form.validateFields((err, values) => {
+      values["g-recaptcha-response"] = response;
+      console.log("Received values of form: ", values);
+
       if (!err) {
         console.log("Received values of form: ", values);
+
         sendMessage(values);
       }
     });
@@ -42,7 +46,7 @@ const Contact = props => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...values, response })
+      body: encode({ "form-name": "contact", ...values, ...response })
     })
       .then(() => {
         console.log("Form submission success");
@@ -58,7 +62,7 @@ const Contact = props => {
   }
 
   function handleRecaptcha(value) {
-    response = { "g-recaptcha-response": value };
+    response = value;
   }
 
   const divStyle = {
