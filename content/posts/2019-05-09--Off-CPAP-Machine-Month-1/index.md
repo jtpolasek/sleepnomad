@@ -1,6 +1,6 @@
 ---
 title: Off the CPAP machine - Month 1
-category: "General"
+category: "Reverse Sleep Apnea"
 cover: quino-al-95074-unsplash.jpg
 author: The Sleep Nomad
 ---

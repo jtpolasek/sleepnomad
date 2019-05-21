@@ -1,6 +1,6 @@
 ---
 title: Can Sleep Apnea Be Reversed? Results From My Sleep Study
-category: "General"
+category: "Reverse Sleep Apnea"
 cover: anisur-rahman-3165-unsplash.jpg
 author: The Sleep Nomad
 ---

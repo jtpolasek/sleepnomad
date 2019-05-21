@@ -94,6 +94,7 @@ module.exports = {
         path: `${__dirname}/content/parts/`
       }
     },
+
     {
       resolve: `gatsby-transformer-remark`,
       options: {
